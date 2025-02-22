@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling header */
+header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Center images nicely */
+img {
+    transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.05);
+}
